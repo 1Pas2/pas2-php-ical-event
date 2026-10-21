@@ -1,0 +1,23 @@
+{
+  "name": "1pas2/ical-event",
+  "description": "Create a small UTC iCalendar event with escaped text and folded lines.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "1Pas2"
+    }
+  ],
+  "require": {
+    "php": ">=8.3"
+  },
+  "autoload": {
+    "files": [
+      "src/library.php"
+    ]
+  },
+  "scripts": {
+    "test": "php tests/test.php",
+    "example": "php examples/basic.php"
+  }
+}
